@@ -9,9 +9,6 @@
 
       "CredentialStatusList2017": "ex:CredentialStatusList2017",
       "DocumentVerification": "ex:DocumentVerification",
-      "SupportingActivity": "ex:SupportingActivity",
-      "StudentCard": "ex:StudentCard",
-      "TravelCard": "ex:TravelCard",
-      "PRCard": "ex:PRCard"
+      "SupportingActivity": "ex:SupportingActivity"
     }
 }
