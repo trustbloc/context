@@ -4,7 +4,7 @@
       "id":"@id",
       "type":"@type",
       "ex":"https://example.org/examples#",
-      
+
       "StudentCard":{
          "@id":"ex:StudentCard",
          "@context":{
@@ -82,49 +82,49 @@
                "@id":"ex:residentsince",
                "@type":"xsd:string"
             }
-         },
+         }
+      },
 
-         "TravelCard":{
-            "@id":"ex:TravelCard",
-            "@context":{
-               "@version":1.1,
-               "@protected":true,
-               "id":"@id",
-               "type":"@type",
-               "xsd":"http://www.w3.org/2001/XMLSchema#",
-               "ex":"https://example.org/examples#",
-               "cardexpires":{
-                  "@id":"ex:cardexpires",
-                  "@type":"xsd:string"
-               },
-               "country":{
-                  "@id":"ex:country",
-                  "@type":"xsd:birthdate"
-               },
-               "dob":{
-                  "@id":"ex:dob",
-                  "@type":"xsd:string"
-               },
-               "issuedate":{
-                  "@id":"ex:issuedate",
-                  "@type":"xsd:string"
-               },
-               "name":{
-                  "@id":"ex:name",
-                  "@type":"xsd:string"
-               },
-               "sex":{
-                  "@id":"ex:sex",
-                  "@type":"xsd:string"
-               },
-               "lprnumber":{
-                  "@id":"ex:lprnumber",
-                  "@type":"xsd:string"
-               },
-               "travelcardid":{
-                  "@id":"ex:travelcardid",
-                  "@type":"xsd:string"
-               }
+      "TravelCard":{
+         "@id":"ex:TravelCard",
+         "@context":{
+            "@version":1.1,
+            "@protected":true,
+            "id":"@id",
+            "type":"@type",
+            "xsd":"http://www.w3.org/2001/XMLSchema#",
+            "ex":"https://example.org/examples#",
+            "cardexpires":{
+               "@id":"ex:cardexpires",
+               "@type":"xsd:string"
+            },
+            "country":{
+               "@id":"ex:country",
+               "@type":"xsd:birthdate"
+            },
+            "dob":{
+               "@id":"ex:dob",
+               "@type":"xsd:string"
+            },
+            "issuedate":{
+               "@id":"ex:issuedate",
+               "@type":"xsd:string"
+            },
+            "name":{
+               "@id":"ex:name",
+               "@type":"xsd:string"
+            },
+            "sex":{
+               "@id":"ex:sex",
+               "@type":"xsd:string"
+            },
+            "lprnumber":{
+               "@id":"ex:lprnumber",
+               "@type":"xsd:string"
+            },
+            "travelcardid":{
+               "@id":"ex:travelcardid",
+               "@type":"xsd:string"
             }
          }
       }
