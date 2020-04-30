@@ -1,16 +1,18 @@
 {
   "@context": {
-    "@version": 1.1,
-
     "id": "@id",
     "type": "@type",
+
     "trustbloc": "https://trustbloc.github.io/context#",
     "sec": "https://w3id.org/security#",
     "ldssk": "https://w3c-ccg.github.io/lds-jws2020/contexts/#",
 
     "publicKeyJwk": {
-      "@id": "sec:publicKeyJwk",
-      "@type": "@json"
+      "@id": "trustbloc:publicKeyJwk",
+      "kty": "trustbloc:kty",
+      "crv": "trustbloc:crv",
+      "x": "trustbloc:x",
+      "y": "trustbloc:y"
     },
     "JwsVerificationKey2020": "ldssk:JwsVerificationKey2020"
   }
