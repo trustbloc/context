@@ -4,6 +4,8 @@
       "id":"@id",
       "type":"@type",
       "ex":"https://example.org/examples#",
+      "name":"http://schema.org/name",
+      "description":"http://schema.org/description",
 
       "StudentCard":{
          "@id":"ex:StudentCard",
