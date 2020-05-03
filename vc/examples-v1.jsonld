@@ -7,6 +7,8 @@
 
       "ex": "https://example.org/examples#",
 
+      "image": {"@id": "http://schema.org/image", "@type": "@id"},
+
       "CredentialStatusList2017": "ex:CredentialStatusList2017",
       "DocumentVerification": "ex:DocumentVerification",
       "SupportingActivity": "ex:SupportingActivity"
