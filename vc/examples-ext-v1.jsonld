@@ -7,9 +7,9 @@
     "name": "http://schema.org/name",
     "description": "http://schema.org/description",
     "image": {
-          "@id": "http://schema.org/image",
-          "@type": "@id"
-     },
+      "@id": "http://schema.org/image",
+      "@type": "@id"
+    },
     "hetc": "https://w3c-ccg.github.io/vc-json-schemas/example/cmtr/v0.2/cmtr-v0.2#",
     "StudentCard": {
       "@id": "ex:StudentCard",
@@ -20,6 +20,8 @@
         "type": "@type",
         "xsd": "http://www.w3.org/2001/XMLSchema#",
         "ex": "https://example.org/examples#",
+        "name": "http://schema.org/name",
+        "description": "http://schema.org/description",
         "name": {
           "@id": "ex:name",
           "@type": "xsd:string"
@@ -114,10 +116,7 @@
           "@id": "ex:issuedate",
           "@type": "xsd:string"
         },
-        "name": {
-          "@id": "ex:name",
-          "@type": "xsd:string"
-        },
+        "name": "http://schema.org/name",
         "sex": {
           "@id": "ex:sex",
           "@type": "xsd:string"
@@ -135,13 +134,43 @@
     "CertifiedMillTestReport": {
       "@id": "ex:CertifiedMillTestReport",
       "@context": {
-       "@version": 1.1,
-       "@protected": true
+        "@version": 1.1,
+        "@protected": true
       }
     },
     "cmtr": {
-         "@id": "hetc:cmtr",
-         "@type": "@json"
+      "@id": "hetc:cmtr",
+      "@type": "@json"
+    },
+    "DIDConnection": {
+      "@id": "ex:DIDConnection",
+      "@context": {
+        "@version": 1.1,
+        "@protected": true,
+        "id": "@id",
+        "type": "@type",
+        "ex": "https://example.org/examples#",
+        "threadID": {
+          "@id": "ex:threadID",
+          "@type": "xsd:string"
+        },
+        "inviteeDID": {
+          "@id": "ex:inviteeDID",
+          "@type": "xsd:birthdate"
+        },
+        "inviterDID": {
+          "@id": "ex:inviterDID",
+          "@type": "xsd:string"
+        },
+        "inviterLabel": {
+          "@id": "ex:inviterLabel",
+          "@type": "xsd:string"
+        },
+        "connectionState": {
+          "@id": "ex:connectionState",
+          "@type": "xsd:string"
+        }
+      }
     }
   }
 }
