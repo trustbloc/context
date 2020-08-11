@@ -4,8 +4,8 @@
       "id":"@id",
       "type":"@type",
 
-      "DrivingLicence":{
-         "@id":"ex:DrivingLicence",
+      "DrivingLicense":{
+         "@id":"ex:DrivingLicense",
          "@context":{
             "@version":1.1,
             "@protected":true,
