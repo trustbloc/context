@@ -1,0 +1,18 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "@protected": true,
+
+    "name": "http://schema.org/name",
+    "version": "http://schema.org/version",
+    "logo": "http://schema.org/logo",
+    "description": "http://schema.org/description",
+    "docs_uri": "http://schema.org/url",
+    "data_uri": "http://schema.org/url",
+    "topics": "xsd:string",
+    "geos": "xsd:string",
+    "jurisdictions": "xsd:string",
+    "roles": "xsd:string",
+    "privileges":{"name":"http://schema.org/name","uri":"http://schema.org/url"}
+    }
+}
