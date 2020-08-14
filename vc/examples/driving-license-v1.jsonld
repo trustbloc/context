@@ -3,6 +3,8 @@
       "@version":1.1,
       "id":"@id",
       "type":"@type",
+      "name":"http://schema.org/name",
+      "description":"http://schema.org/description",
 
       "DrivingLicense":{
          "@id":"ex:DrivingLicense",
