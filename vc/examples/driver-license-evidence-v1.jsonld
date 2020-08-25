@@ -20,6 +20,14 @@
         "document_number": {
           "@id": "ex:document_number",
           "@type": "xsd:string"
+        },
+        "evidence_id": {
+          "@id": "ex:evidence_id",
+          "@type": "xsd:string"
+        },
+        "comments": {
+          "@id": "ex:comments",
+          "@type": "xsd:string"
         }
       }
     }
