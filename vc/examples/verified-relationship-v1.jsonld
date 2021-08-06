@@ -1,0 +1,18 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "@protected": true,
+
+    "organizationIssuerLegalName": "https://schema.org/legalName",
+    "relationship": "https://example.org/relationship",
+
+    "organizationBusinessNumber": "https://example.org/businessNumber",
+    "personGivenName": "https://schema.org/givenName",
+    "personAdditionalName": "https://schema.org/additionalName",
+    "personFamilyName": "https://schema.org/familyName",
+    "relationshipDescription": "https://example.org/relationshipDescription",
+
+    "relationshipStatus": "https://example.org/relationshipStatus",
+    "relationshipStatusEffective": "https://example.org/relationshipStatusEffective"
+  }
+}
