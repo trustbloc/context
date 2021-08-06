@@ -1,0 +1,63 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "@protected": true,
+
+    "businessNumber": "https://example.org/businessNumber",
+    "entityType": "https://schema.org/BusinessEntityType",
+    "issuerLegalName": "https://schema.org/legalName",
+    "homeJurisdictionLegalName": "https://exmaple.org/homeJurisdictionLegalName",
+    "alternateLegalName": "https://schema.org/alternateName",
+    "operatingName": "https://exmaple.org/operatingName",
+
+    "address": {
+      "@id":"https://example.org/VerifiedPerson#address",
+      "@context": {
+        "@version": 1.1,
+        "@protected": true,
+
+        "streetAddress": "https://schema.org/streetAddress",
+        "city": "https://schema.org/addressLocality",
+        "province": "https://schema.org/addressRegion",
+        "country": "https://schema.org/addressCountry",
+        "postalCode": "https://schema.org/postalCode"
+      }
+    },
+
+    "legislation": "https://schema.org/legislationType",
+    "registeredJurisdiction": "https://schema.org/jurisdiction",
+    "homeJurisdiction": "https://schema.org/homeJurisdiction",
+
+    "directors": {
+      "@id":"https://schema.org/director",
+      "@context": {
+        "@version": 1.1,
+        "@protected": true,
+
+        "fullName": "https://example.org/fullName",
+        "address": {
+          "@id":"https://example.org/VerifiedPerson#address",
+          "@context": {
+            "@version": 1.1,
+            "@protected": true,
+
+            "streetAddress": "https://schema.org/streetAddress",
+            "city": "https://schema.org/addressLocality",
+            "province": "https://schema.org/addressRegion",
+            "country": "https://schema.org/addressCountry",
+            "postalCode": "https://schema.org/postalCode"
+          }
+        }
+      }
+    },
+
+    "registrationDate": "https://schema.org/registrationDate",
+    "registrationExpiryDate": "https://schema.org/registrationExpiryDate",
+    "registrationRenewalEffective": "https://schema.org/registrationRenewalEffective",
+    "issuerLegalNameEffective": "https://schema.org/issuerLegalNameEffective",
+    "homeJurisdictionLegalNameEffective": "https://schema.org/homeJurisdictionLegalNameEffective",
+    "entityStatus": "https://schema.org/entityStatus",
+    "entityStatusEffective": "https://schema.org/entityStatusEffective"
+
+  }
+}
